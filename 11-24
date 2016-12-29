@@ -1,0 +1,38 @@
+11-24
+  1.nodejs
+    http://www.runoob.com/nodejs/nodejs-tutorial.html
+  2.swagger-express-middleware.sample2.js解析
+    1.模块声明
+      
+    middleware.init(swaggerPath,callback);
+    	swaggerPath:  *.yaml路径
+    	callback:	  回调函数,当callback中事情做完之后,middleware完成初始化,一般在callback中用来生成对象
+    2.Data
+      MemeryData ---->将对象放到内存中
+      FileData   ---->将对象永久放到文件中下次还可以访问
+      详见
+    3.Resource
+     	myDB.save(
+	    	new Resource('/pets/Lassie', {name: 'Lassie', type: 'dog', tags: ['brown', 'white'], age: 8 ,gender: { gender: 'male', orientation: 1}}),
+	    	...,
+	    	...,
+    	);
+
+    	Rescource(path, data)
+    		path: 资源的完整路径
+    		data: The resource's data.  This can be any value that is serializable as JSON, such as a string, a number, an object, an array, etc.
+
+
+
+    4.  metadata(router)   ----app.use(middleware.metadata());----将*.yaml中的元素映射到对象中
+    5.	files([router], [options])
+     		Serves your Swagger API file(s) so they can be used with front-end tools like like [Swagger UI](http://www.swagger.io), [Swagger Editor](http://editor.swagger.io), and [Postman](http://getpostman.com).
+    6.	parseRequest(router, options)
+    		将yaml的请求对象转换成真正的req中
+    7.	CORS(router)
+    		Adds the appropriate CORS headers to each request and automatically responds to CORS preflight requests, all in compliance with your Swagger API definition.
+    		[here's a good explanation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS). 
+    		http://www.ruanyifeng.com/blog/2016/04/cors.html
+    8.	mock(router)
+    		
+   3.swagger-parser	解析
