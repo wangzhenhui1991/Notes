@@ -50,11 +50,16 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ####  Java集合
 
 - [Java 集合总结（Collection系列与Map系列）](https://github.com/pzxwhc/MineKnowContainer/issues/75)
-- [Java 集合：Collection，List，ArrayList，Vector，LinkedList（实现方式，对比）](https://github.com/pzxwhc/MineKnowContainer/issues/18)
-- [Java 集合：HashMap（put方法的实现与哈希冲突）](https://github.com/pzxwhc/MineKnowContainer/issues/19)
-- [Java 集合：LinkedHashMap工作原理及实现](https://github.com/pzxwhc/MineKnowContainer/issues/76)
-- [Java 集合：TreeMap 的使用（不包括原理，仅仅是简单的使用 demo）](https://github.com/pzxwhc/MineKnowContainer/issues/82)
-- [Java 集合：HashSet ，TreeSet 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/21)
+  - [Java 集合-Collection-List-1.ArrayList：2.Vector：3.LinkedList（实现方式，对比）](https://github.com/pzxwhc/MineKnowContainer/issues/18)
+  - [Java 集合：HashMap（put方法的实现与哈希冲突）](https://github.com/pzxwhc/MineKnowContainer/issues/19)
+    - [Java 集合：LinkedHashMap工作原理及实现](https://github.com/pzxwhc/MineKnowContainer/issues/76)
+  - [Java 集合：TreeMap 的使用（不包括原理，仅仅是简单的使用 demo）](https://github.com/pzxwhc/MineKnowContainer/issues/82)
+  - [Java 集合-Collection-Set-1.HashSet：2.TreeSet 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/21)
+
+
+
+
+
 - [个人博客：WeakHashMap 原理](http://wuhuachuan.com/visitor/article/4926e469-a6b3-47ec-ac50-d9b1d7e1008c)
 - [个人博客：Java并发容器：ConcurrentHashMap，CopyOnWriteArrayList简介](http://wuhuachuan.com/visitor/article/5365ec73-e0b8-4eb9-8290-c36587918409)
 
