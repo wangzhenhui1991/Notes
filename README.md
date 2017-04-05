@@ -6,7 +6,11 @@
 
 # Java
 ## Java 内存模型
+
 ## JVM
+- [JVM：内存结构](https://github.com/pzxwhc/MineKnowContainer/issues/24)
+- [JVM：Java 对象具体是如何创建的](https://github.com/pzxwhc/MineKnowContainer/issues/62)
+
 ## Java集合
 ## Java线程
 ## Java设计模式
