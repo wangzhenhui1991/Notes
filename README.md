@@ -50,9 +50,8 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 - [Java 集合总结（Collection系列与Map系列）](https://github.com/pzxwhc/MineKnowContainer/issues/75)
   - [Java 集合-Collection-List-1.ArrayList：2.Vector：3.LinkedList（实现方式，对比）](https://github.com/pzxwhc/MineKnowContainer/issues/18)
-  - [Java 集合：HashMap（put方法的实现与哈希冲突）](https://github.com/pzxwhc/MineKnowContainer/issues/19)
-    - [Java 集合：LinkedHashMap工作原理及实现](https://github.com/pzxwhc/MineKnowContainer/issues/76)
-  - [Java 集合：TreeMap 的使用（不包括原理，仅仅是简单的使用 demo）](https://github.com/pzxwhc/MineKnowContainer/issues/82)
+  - [Java 集合-Map-HashMap（put方法的实现与哈希冲突）](https://github.com/pzxwhc/MineKnowContainer/issues/19);[Java 集合-Map-LinkedHashMap工作原理及实现](https://github.com/pzxwhc/MineKnowContainer/issues/76)
+  - [Java 集合-Map-TreeMap 的使用（不包括原理，仅仅是简单的使用 demo）](https://github.com/pzxwhc/MineKnowContainer/issues/82)
   - [Java 集合-Collection-Set-1.HashSet：2.TreeSet 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/21)
 
 
@@ -202,10 +201,11 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ## AngularJs
 
 # 算法
+[编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July/tree/master/ebook/zh)
 ## 排序
 ## 遍历
-
-
+## 树
+- [红黑树](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)
 # 机器学习
 ## 推荐算法
 ### 基于
