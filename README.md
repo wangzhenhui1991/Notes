@@ -1,13 +1,10 @@
+后续个人的一些技术总结文章会写在自己的个人博客上：欢迎关注：[http://wangzhenhui.com](http://wangzhenhui.com/)
+
+Ps：技术探讨欢迎提 issue 或者 email。
 
 # Notes
 ## 周报系列
 [tuhu周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
-
-
-
-后续个人的一些技术总结文章会写在自己的个人博客上：欢迎关注：[http://wangzhenhui.com](http://wangzhenhui.com/)
-
-Ps：技术探讨欢迎提 issue 或者 email。
 
 ## Java
 
@@ -16,18 +13,20 @@ Ps：技术探讨欢迎提 issue 或者 email。
 垃圾算法和垃圾收集器相关
 
 - [Java JVM：总结](https://github.com/pzxwhc/MineKnowContainer/issues/63)
-- [Java JVM：垃圾收集算法 - 标记清除算法（伪代码实现与深入分析）](https://github.com/pzxwhc/MineKnowContainer/issues/86)
-- [Java JVM：垃圾收集算法 - 标记整理算法（伪代码实现与深入分析）](https://github.com/pzxwhc/MineKnowContainer/issues/87)
-- [Java JVM：垃圾收集算法 - 复制算法（伪代码实现与深入分析）](https://github.com/pzxwhc/MineKnowContainer/issues/88)
+- [Java JVM：垃圾回收（GC 在什么时候，对什么东西，做了什么事情）](https://github.com/wangzhenhui1991/Notes/issues/10)
+- [Java JVM：垃圾收集器（转载）](https://github.com/pzxwhc/MineKnowContainer/issues/61)
+- [Java JVM：垃圾收集算法1 - 标记清除算法（伪代码实现与深入分析）](https://github.com/pzxwhc/MineKnowContainer/issues/86)
+- [Java JVM：垃圾收集算法2 - 标记整理算法（伪代码实现与深入分析）](https://github.com/pzxwhc/MineKnowContainer/issues/87)
+- [Java JVM：垃圾收集算法3 - 复制算法（伪代码实现与深入分析）](https://github.com/pzxwhc/MineKnowContainer/issues/88)
 - [Java JVM：CMS 垃圾收集器 - 工作原理，浮动垃圾，三色标记法等](https://github.com/pzxwhc/MineKnowContainer/issues/89)
 - [Java JVM：G1 垃圾收集器概述](https://github.com/pzxwhc/MineKnowContainer/issues/90)
-- [Java JVM：垃圾收集器（转载）](https://github.com/pzxwhc/MineKnowContainer/issues/61)
-- [Java JVM：垃圾回收（GC 在什么时候，对什么东西，做了什么事情）](https://github.com/pzxwhc/MineKnowContainer/issues/26)
+
+
 
 内存相关
 
 - [Java JVM：内存结构](https://github.com/pzxwhc/MineKnowContainer/issues/24)
-- [Java JVM：Java 对象具体是如何创建的](https://github.com/pzxwhc/MineKnowContainer/issues/62)
+- [Java JVM：Java 对象具体是如何创建的](https://github.com/wangzhenhui1991/Notes/issues/9)
 - [Java JVM：编译加载机制与自定义类加载器](https://github.com/pzxwhc/MineKnowContainer/issues/27)
 
 #### Java多线程
@@ -101,6 +100,9 @@ Ps：技术探讨欢迎提 issue 或者 email。
 #### Spring Security
 - [Spring Security：相关类以及 Authentication 认证流程（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/58)
 - [Spring Security：结合 Spring-OAuth，支持 Mysql 数据库（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/59)
+#### Spring Boot
+
+#### Vert.X
 
 #### Quartz
 - [Quartz：Spring + Quartz 支持多机任务调度（实现和原理流程）](https://github.com/pzxwhc/MineKnowContainer/issues/37)
@@ -142,6 +144,33 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ## 工具
 - [iTerm 常用命令](https://github.com/pzxwhc/MineKnowContainer/issues/1) 
 - [vim 常用命令](https://github.com/pzxwhc/MineKnowContainer/issues/13) 
+
+# 机器学习
+
+## 聚类
+### FCM-模糊聚类
+### PCM-可能性聚类
+### EM-
+### MEC-极大熵聚类
+## 多视角聚类
+### CoFKM
+### Co-EM
+### Co-MEC
+### WCo-PCM
+## 推荐算法
+
+# 大数据
+## Hadoop
+## MapReduce
+## Yarn
+## Spark
+
+# 常用工具
+## Intellij
+## Sublime
+## Lisatry
+## Xshell
+
 
 # Http
 
@@ -189,7 +218,6 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 # 常用工具
 ## Intellij
-- [常用快捷键介绍教程(还有IDEA其他教程)](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 ## Sublime
 ## Lisatry
 ## Xshell
