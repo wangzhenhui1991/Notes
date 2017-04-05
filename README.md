@@ -1,7 +1,7 @@
 
 # Notes
-##周报系列
-[周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
+## 周报系列
+[tuhu周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
 
 
 # Java
@@ -10,7 +10,10 @@
 ## Java集合
 ## Java线程
 ## Java设计模式
+## JavaIO
+## 
 # Java Web
+# Http
 
 # Linux 
 ## Linux
@@ -53,3 +56,4 @@
 ## Sublime
 ## Lisatry
 ## Xshell
+
