@@ -35,13 +35,16 @@ Ps：技术探讨欢迎提 issue 或者 email。
 #### Java多线程
 - [Java 多线程：多线程生成的原因（Java内存模型与i++操作解析）](https://github.com/pzxwhc/MineKnowContainer/issues/6)
 - [Java 多线程：生产者消费者问题](https://github.com/pzxwhc/MineKnowContainer/issues/8)
-- [Java 多线程：Lock 接口（接口方法分析，ReentrantLock，ReadWriteLock）](https://github.com/pzxwhc/MineKnowContainer/issues/16)
-- [Java 多线程：Condition 接口](https://github.com/pzxwhc/MineKnowContainer/issues/10)
-- [Java 多线程：synchronized 关键字（修饰类，方法，静态方法，代码块）](https://github.com/pzxwhc/MineKnowContainer/issues/7)
-- [Java 多线程：volatile 关键字](https://github.com/pzxwhc/MineKnowContainer/issues/11)
+
+- [Java 多线程：synchronized 关键字（修饰类，方法，静态方法，代码块）](https://github.com/wangzhenhui1991/Notes/issues/11)
+- [Java 多线程：Lock 接口（接口方法分析，ReentrantLock，ReadWriteLock）](https://github.com/wangzhenhui1991/Notes/issues/12)
+- [Java 多线程：Condition 类](https://github.com/pzxwhc/MineKnowContainer/issues/10)
+
+- [Java 多线程：volatile 关键字](https://github.com/wangzhenhui1991/Notes/issues/13)
 - [Java 多线程：Threadlocal 类](https://github.com/pzxwhc/MineKnowContainer/issues/12)
 - [Java 多线程：InheritableThreadLocal 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/20)
 - [Java 多线程：CAS 与 AtomicInteger（乐观锁）(转载)](https://github.com/pzxwhc/MineKnowContainer/issues/17)
+
 - [Java 多线程：线程池实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/9)
 
 ####  Java集合
