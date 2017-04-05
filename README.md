@@ -1,4 +1,4 @@
-[top]
+
 # Notes
 ##周报系列
 [周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
@@ -24,6 +24,10 @@
 ## Jquery
 ## AngularJs
 
+# 算法
+## 排序
+## 遍历
+
 
 # 机器学习
 
@@ -44,7 +48,7 @@
 ## Yarn
 ## Spark
 
-#常用工具
+# 常用工具
 ## Intellij
 ## Sublime
 ## Lisatry
