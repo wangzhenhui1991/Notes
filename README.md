@@ -216,6 +216,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 # 常用工具
 ## Intellij
+- [常用快捷键介绍教程(还有IDEA其他教程)](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 ## Sublime
 ## Lisatry
 ## Xshell
