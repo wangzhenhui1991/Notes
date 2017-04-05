@@ -143,33 +143,6 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [iTerm 常用命令](https://github.com/pzxwhc/MineKnowContainer/issues/1) 
 - [vim 常用命令](https://github.com/pzxwhc/MineKnowContainer/issues/13) 
 
-# 机器学习
-
-## 聚类
-### FCM-模糊聚类
-### PCM-可能性聚类
-### EM-
-### MEC-极大熵聚类
-## 多视角聚类
-### CoFKM
-### Co-EM
-### Co-MEC
-### WCo-PCM
-## 推荐算法
-
-# 大数据
-## Hadoop
-## MapReduce
-## Yarn
-## Spark
-
-# 常用工具
-## Intellij
-## Sublime
-## Lisatry
-## Xshell
-
-
 # Http
 
 # 数据库
