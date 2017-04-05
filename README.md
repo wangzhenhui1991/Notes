@@ -13,13 +13,25 @@
 ## JavaIO
 ## 
 # Java Web
+## Tomcat
+## Servlet
+## Spring
+## SpringMVC
+## SpringBoot
+## Vert.x
+
 # Http
 
+# 数据库
+## MySql
+## Redis
+## MongoDB
+## HBase
 # Linux 
 ## Linux
 
 # Docker
-## Docker
+## Docker常用命令
 
 # JavaScript
 ## Node
@@ -33,7 +45,8 @@
 
 
 # 机器学习
-
+## 推荐算法
+### 基于
 ## 聚类
 ### FCM-模糊聚类
 ### PCM-可能性聚类
