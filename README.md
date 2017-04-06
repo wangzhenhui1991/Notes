@@ -42,24 +42,25 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [Java 多线程：线程池实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/9)
 
   - [Java 多线程：volatile 关键字](https://github.com/wangzhenhui1991/Notes/issues/13)
-  - [Java 多线程：Threadlocal 类](https://github.com/pzxwhc/MineKnowContainer/issues/12)
-    - [Java 多线程：InheritableThreadLocal 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/20)
+  
+  - [Java 多线程：Threadlocal 类](https://github.com/pzxwhc/MineKnowContainer/issues/12);[Java 多线程：InheritableThreadLocal 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/20)
+  
   - [Java 多线程：CAS 与 AtomicInteger（乐观锁）(转载)](https://github.com/pzxwhc/MineKnowContainer/issues/17)
 
 ####  Java集合
 
 - [Java 集合总结（Collection系列与Map系列）](https://github.com/pzxwhc/MineKnowContainer/issues/75)
   - [Java 集合-Collection-List-1.ArrayList：2.Vector：3.LinkedList（实现方式，对比）](https://github.com/pzxwhc/MineKnowContainer/issues/18)
-  - [Java 集合-Map-HashMap（put方法的实现与哈希冲突）](https://github.com/pzxwhc/MineKnowContainer/issues/19);[Java 集合-Map-LinkedHashMap工作原理及实现](https://github.com/pzxwhc/MineKnowContainer/issues/76)
-  - [Java 集合-Map-TreeMap 的使用（不包括原理，仅仅是简单的使用 demo）](https://github.com/pzxwhc/MineKnowContainer/issues/82)
+  
+  - [Java 集合-Map-HashMap（put方法的实现与哈希冲突）](https://github.com/pzxwhc/MineKnowContainer/issues/19);[Java 集合-Map-LinkedHashMap工作原理及实现](https://github.com/pzxwhc/MineKnowContainer/issues/76)
+  
+  - [Java 集合-Map-TreeMap 的使用（不包括原理，仅仅是简单的使用 demo）](https://github.com/pzxwhc/MineKnowContainer/issues/82)
   - [Java 集合-Collection-Set-1.HashSet：2.TreeSet 实现原理](https://github.com/pzxwhc/MineKnowContainer/issues/21)
+  
+- [Java并发容器：HashMap->HashTable->ConcurrentHashMap，ArrayList->Vector->CopyOnWriteArrayList简介](http://wuhuachuan.com/visitor/article/5365ec73-e0b8-4eb9-8290-c36587918409)
 
+- [WeakHashMap 原理](http://wuhuachuan.com/visitor/article/4926e469-a6b3-47ec-ac50-d9b1d7e1008c)
 
-
-
-
-- [个人博客：WeakHashMap 原理](http://wuhuachuan.com/visitor/article/4926e469-a6b3-47ec-ac50-d9b1d7e1008c)
-- [个人博客：Java并发容器：ConcurrentHashMap，CopyOnWriteArrayList简介](http://wuhuachuan.com/visitor/article/5365ec73-e0b8-4eb9-8290-c36587918409)
 
 #### Java IO
 - [Java IO：操作系统的IO处理过程以及5种网络IO模型](https://github.com/pzxwhc/MineKnowContainer/issues/22)
