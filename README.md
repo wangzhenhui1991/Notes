@@ -80,11 +80,12 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [设计模式 -- spring aop 的代理模式(Proxy 以及 CGLib)](https://github.com/pzxwhc/MineKnowContainer/issues/85)
 
 ## 排序算法
-- [排序算法：选择排序](https://github.com/pzxwhc/MineKnowContainer/issues/43)
-- [排序算法：冒泡排序](https://github.com/pzxwhc/MineKnowContainer/issues/44)
-- [排序算法：插入排序](https://github.com/pzxwhc/MineKnowContainer/issues/45)
-- [排序算法：希尔排序](https://github.com/pzxwhc/MineKnowContainer/issues/46)
-- [排序算法：快速排序](https://github.com/pzxwhc/MineKnowContainer/issues/51)
+- [插入排序算法：直接插入排序-希尔排序](https://github.com/wangzhenhui1991/Notes/issues/14)
+- [交换排序算法：冒泡排序-快速排序](https://github.com/wangzhenhui1991/Notes/issues/15)
+- [选择排序算法：简单选择排序-堆排序](https://github.com/wangzhenhui1991/Notes/issues/16)
+- [排序算法：归并排序](https://github.com/wangzhenhui1991/Notes/issues/17)
+
+
 
 ## Mysql
 - [Mysql：行级锁](https://github.com/pzxwhc/MineKnowContainer/issues/71)
