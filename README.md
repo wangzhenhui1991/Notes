@@ -113,6 +113,8 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [Spring Security：结合 Spring-OAuth，支持 Mysql 数据库（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/59)
 #### Spring Boot
 
+#### ORM持久层框架
+- [ORM MyBatis:MyBatis 的初步认识以及基本使用](https://github.com/wangzhenhui1991/Notes/issues/18)
 #### Vert.X
 
 #### Quartz
