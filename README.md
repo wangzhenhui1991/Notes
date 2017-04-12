@@ -115,6 +115,8 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 ##### ORM持久层框架
 - [ORM MyBatis:MyBatis 的初步认识以及基本使用](https://github.com/wangzhenhui1991/Notes/issues/18)
+- [ORM MyBatis:MyBatis 的映射](https://github.com/wangzhenhui1991/Notes/issues/19)
+- [ORM MyBatis:MyBatis 的动态映射](https://github.com/wangzhenhui1991/Notes/issues/20)
 - [ORM Hibernate]()
 - [ORM SpringJPA]()
 #### Vert.X
