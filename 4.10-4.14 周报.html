@@ -1014,314 +1014,69 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>insurance</title></head><body><article class="markdown-body"><div class="toc">
-<ul>
-<li><a href="#vertx-3">Vertx 3</a><ul>
-<li><a href="#java-8">Java 8 的新特性和改进总览</a><ul>
-<li><a href="#java-8_1">Java 8 函数式接口</a></li>
-<li><a href="#java-8-lambdas">Java 8 Lambdas</a></li>
+</style><title>4.10-4.14 周报</title></head><body><article class="markdown-body"><h2 id="410-414"><a name="user-content-410-414" href="#410-414" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.10-4.14 周报</h2>
+<h3 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>众安对接</h3>
+<ol>
+<li>对接众安API文档，获取众安API接口所需的权限：<br />
+- appKey<br />
+- 网关<br />
+- 众安公钥<br />
+- 易车私钥(暂用)<br />
+通过测试众安API提供的<a href="http://static.zhongan.com/website/open/download/open/api/ZhonganSDK_JavaV1.0.0.zip">签名延签SDK</a>，在<strong>预发布环境</strong>简单通过车辆查询接口以及车型查询接口</li>
+<li>划分众安API接口的测试任务，&lt;车辆信息查询&gt;,&lt;车型信息查询&gt;,&lt;核保及订单确认&gt;,&lt;收银台&gt;四个接口，编写测试类，并完成对应接口所需的Request和Response实体类。<br />
+PS:&lt;核保及订单确认&gt;的测试需要从&lt;申请询价&gt;获得insureFlowCode，并经过&lt;实际车辆价格查询&gt;及&lt;报价&gt;接口之后，才能走通正常流程。</li>
+<li>对接众安收银台SDK，获取收银台所需：<br />
+- 收银台MERCHANT_CODE<br />
+- 收银台APP_KEY <br />
+初步测试获取收银台地址(payUrl)的获取，完成以下测试：<ul class="task-list">
+<li>[√] 支付成功时，同步回调到前端页面，</li>
+<li>[√] 支付取消时，同步回调到前端页面；</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 待测：支付完成时，异步回调系统的服务端<br />
+由于异步回调需要提供个众安一个外网可访问的服务地址，并且由系统接受处理。</li>
 </ul>
 </li>
-<li><a href="#vertx-3_1">Vert.x 3应用程序</a><ul>
-<li><a href="#vertx-3-install">Vert.x 3 Install</a></li>
-<li><a href="#vertx-3-example">Vert.x 3 Example</a></li>
-<li><a href="#vertx-3-web-example">Vert.x 3 Web-Example</a></li>
-<li><a href="#vertx-rxjava">Vert.x RxJava</a></li>
-<li><a href="#vertx-3-run-in-command-line">Vert.x 3 Run in Command Line</a></li>
-<li><a href="#vertx-3-jdbc">Vert.x 3 JDBC</a><ul>
-<li><a href="#vertx-3-jdbc_1">Vertx 3 JDBC 执行批量操作</a></li>
-<li><a href="#mybatis-orm">集成myBatis ORM</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#car-insurance">Car Insurance</a><ul>
-<li><a href="#1get-quotedetialcid">1.Get   /quote/detial/:cid</a></li>
-<li><a href="#2post-quotedetial">2.Post  /quote/detial/</a></li>
-<li><a href="#3get-ordercid">3.Get   /order/:cid</a></li>
-<li><a href="#4put-orderconfrim">4.Put   /order/confrim</a></li>
-</ul>
-</li>
-<li><a href="#checheservice">ChecheService</a></li>
-<li><a href="#postman">PostMan 对接接口</a></li>
-<li><a href="#sublime-text">sublime text</a></li>
-<li><a href="#powershell">PowerShell</a></li>
-<li><a href="#bitvise-ssh">Bitvise SSH</a></li>
-<li><a href="#kibana">KIBANA</a></li>
-<li><a href="#shimoio">shimo.io</a></li>
-<li><a href="#postman_1">postMan</a><ul>
-<li><a href="#readstream">read.stream</a></li>
-<li><a href="#jpa-test">JPA Test</a></li>
-</ul>
-</li>
-<li><a href="#retrofit">Retrofit</a><ul>
-<li><a href="#1exception-javanetsockettimeoutexception-timeout">1.Exception: java.net.SocketTimeoutException: timeout</a></li>
-<li><a href="#2iovertxcorejsondecodeexception-failed-to-decodeunexpected-character-i-code-105-was-expecting-double-quote-to-start-field-name">2.io.vertx.core.json.DecodeException: Failed to decode:Unexpected character (&lsquo;i&rsquo; (code 105)): was expecting double-quote to start field name</a></li>
-<li><a href="#3error-1366-hy000-incorrect-string-valuexd5xd4-for-column-name-at-row-1">3.(ERROR 1366 (HY000): Incorrect string value:&rsquo;\xD5\xD4&rsquo; for column &lsquo;name&rsquo; at row 1)</a></li>
-<li><a href="#4javalangunsupportedoperationexception-not-implemented">4.java.lang.UnsupportedOperationException: Not implemented</a></li>
-<li><a href="#5javautildate-javasqldate">5.java.util.date 与 java.sql.date 的区别</a></li>
-<li><a href="#6">6.</a></li>
-<li><a href="#api">api外网映射</a><ul>
-<li><a href="#windows">Windows</a></li>
-<li><a href="#linux">Linux</a></li>
-</ul>
-</li>
-<li><a href="#cheche-sdk">cheche SDK</a><ul>
-<li><a href="#jar">JAR包</a><ul>
-<li><a href="#gradle">gradle 编译</a></li>
-</ul>
-</li>
-<li><a href="#_1">签名 延签</a></li>
-</ul>
-</li>
-<li><a href="#oauth">OAuth</a><ul>
-<li><a href="#spring-boot-csrf">Spring Boot CSRF</a></li>
-<li><a href="#spring-boot-call-webservice">Spring Boot Call WebService</a></li>
-</ul>
-</li>
-<li><a href="#fiddler">fiddler</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<h2 id="vertx-3"><a name="user-content-vertx-3" href="#vertx-3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vertx 3</h2>
-<h3 id="java-8"><a name="user-content-java-8" href="#java-8" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Java 8 的新特性和改进总览</h3>
-<pre><code>https://www.oschina.net/translate/everything-about-java-8
-</code></pre>
-<h4 id="java-8_1"><a name="user-content-java-8_1" href="#java-8_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Java 8 函数式接口</h4>
-<h4 id="java-8-lambdas"><a name="user-content-java-8-lambdas" href="#java-8-lambdas" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Java 8 Lambdas</h4>
-<h3 id="vertx-3_1"><a name="user-content-vertx-3_1" href="#vertx-3_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x 3应用程序</h3>
-<pre><code>    http://fury.vanjun.com/java/vertx/diyigevertx3yingyongchengxu/
-    官方http://vertx.io/blog/my-first-vert-x-3-application/
-</code></pre>
-<h4 id="vertx-3-install"><a name="user-content-vertx-3-install" href="#vertx-3-install" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x 3 Install</h4>
-<pre><code>Ghttps://github.com/vert-x3/vertx-examples#installing-vertx
-    http://vertx.io/download/
-    set-alias vt vertx
-    new-alias vt vertx
-</code></pre>
-<h4 id="vertx-3-example"><a name="user-content-vertx-3-example" href="#vertx-3-example" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x 3 Example</h4>
-<pre><code>    https://github.com/vert-x3/vertx-examples
-</code></pre>
-<h4 id="vertx-3-web-example"><a name="user-content-vertx-3-web-example" href="#vertx-3-web-example" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x 3 Web-Example</h4>
-<p><a href="http://vertx.io/docs/vertx-web/java/">Web-Example</a></p>
-<h4 id="vertx-rxjava"><a name="user-content-vertx-rxjava" href="#vertx-rxjava" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x RxJava</h4>
-<p><a href="http://vertx.io/docs/vertx-rx/java/">Vert.x API for RxJava</a></p>
-<h4 id="vertx-3-run-in-command-line"><a name="user-content-vertx-3-run-in-command-line" href="#vertx-3-run-in-command-line" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x 3 Run in Command Line</h4>
-<pre><code>``` 
-cd core-examples/src/main/java/io/vertx/example/core
-vertx run EchoServer.java
-```
-
-JSON Web Token - 在Web应用间安全地传递信息
-http://blog.leapoahead.com/2015/09/06/understanding-jwt/
-</code></pre>
-<h4 id="vertx-3-jdbc"><a name="user-content-vertx-3-jdbc" href="#vertx-3-jdbc" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vert.x 3 JDBC</h4>
-<h5 id="vertx-3-jdbc_1"><a name="user-content-vertx-3-jdbc_1" href="#vertx-3-jdbc_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vertx 3 JDBC 执行批量操作</h5>
-<h5 id="mybatis-orm"><a name="user-content-mybatis-orm" href="#mybatis-orm" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>集成myBatis ORM</h5>
-<p><a href="https://segmentfault.com/a/1190000005733665#articleHeader24">想要使用其它持久化存储框架？</a><br />
-<a href="http://www.mybatis.org/mybatis-3/zh/">mybatis</a></p>
-<h2 id="car-insurance"><a name="user-content-car-insurance" href="#car-insurance" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Car Insurance</h2>
-<h3 id="1get-quotedetialcid"><a name="user-content-1get-quotedetialcid" href="#1get-quotedetialcid" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1.Get   /quote/detial/:cid</h3>
-<h3 id="2post-quotedetial"><a name="user-content-2post-quotedetial" href="#2post-quotedetial" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.Post  /quote/detial/</h3>
-<h3 id="3get-ordercid"><a name="user-content-3get-ordercid" href="#3get-ordercid" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.Get   /order/:cid</h3>
-<h3 id="4put-orderconfrim"><a name="user-content-4put-orderconfrim" href="#4put-orderconfrim" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.Put   /order/confrim</h3>
-<p>提交订单流程<br />
-- 提交订单<br />
-    + 0. cid uid CHECHETOKEN orderParameter<br />
-    + 1. request.get&mdash;&gt;CHECHE-TOKEN,OrderParam(no,name,deliveryName),uid<br />
-    + 2. redis.get(cid,uid)&mdash;&gt;giftId,quoteRecordKey<br />
-    + 3. checheService.saveQuote(CHECHE-TOKEN,uid,quoteRecordKey)&mdash;&gt;quoteRecordId<br />
-    + 4. checheService.submitOrder(CHECHE-TOKEN,quoteRecordId,OrderParam)&mdash;&gt;Order,payUrl<br />
-    + 5. mySql.insert(Order)<br />
-    + 6. tuhuAPI.postOrder()<br />
-    + 7. Transaction(5-7) <br />
-- 下单<br />
-    + 跳转到车车收银台 <a href="http://www.cheche365.com/partner/{partnerCode}/callback/order/payment/{orderNo}?uuid=2987ff0f-f598-4e47-a102-779d606e1cc6">http://www.cheche365.com/partner/{partnerCode}/callback/order/payment/{orderNo}?uuid=2987ff0f-f598-4e47-a102-779d606e1cc6</a><br />
-    + 第三方支付平台<br />
-- 同步<br />
-    + 第三方支付callBack到同步页面(杜伟) get(/Order/Sync)&mdash;&gt;sync.html<br />
-    + router.post(/Order/Sync) 由车车调用&mdash;&gt;newOrder = req.getBody();<br />
-    + mySql.select(orderId)&mdash;&gt;oldOrder<br />
-    + check(oldOrder,newOrder)<br />
-        * no &mdash;&gt; 订单下单失败<br />
-        * yes &ndash;&gt; mySql.update(orderId,newOrder)----&gt;tuhu业务系统订单变更<br />
-    + 1-订单创建-完整订单报文&mdash;ps：现在由于同步状态先于入库，所以订单创建的同步是无效的<br />
-        * 根据checheOrderNo获取订单信息&mdash;<br />
-        * 补充信息 <br />
-            - 商业险保单信息&amp;交强险保单信息<br />
-        * 校验数据-&gt;flag<br />
-        * 根据flag-&gt;<br />
-            - 更新主订单status(待支付/取消订单),OrderExcep(0/校验失败)<br />
-            - 更新途虎业务系统订单状态(待支付/订单取消)<br />
-    + 7-核保失败-完整订单报文&mdash;目前核保失败什么也不做，该做的都在入库的时候解决掉-初始状态<br />
-    + 5-支付完成-完整订单报文&mdash;前置状态一定 出单中----且是终止状态<br />
-        * 根据checheOrderNo获取订单信息<br />
-        * 补充信息 <br />
-            - 商业险保单信息&amp;交强险保单信息<br />
-        * 校验数据-&gt;flag<br />
-        * 根据flag-&gt;<br />
-            - 更新主订单status(支付完成/取消订单),OrderExcep(0/校验失败)<br />
-            - 更新途虎业务系统订单状态(支付完成/订单取消)<br />
-    + 3-订单已付款，出保单中-仅订单状态&mdash;<br />
-        * 根据checheOrderNo获取主订单，子订单信息<br />
-        * 更新主订单状态(支付成功-2)<br />
-        * 更新子订单状态(支付完成-2)-子订单列表中待支付的子订单并且匹配支付id<br />
-        * 更新途虎业务系统订单状态(支付完成-2)----？多次更新，途虎该如何处理<br />
-    + 6-订单取消-仅订单状态-ps：由于补缴中不存在订单取消。<br />
-        * 根据checheOrderNo获取主订单，子订单信息<br />
-        * 更新主订单状态(订单取消-1)<br />
-        * 更新子订单状态(撤销支付-3)<br />
-        * 更新途虎业务系统订单状态(订单取消-1)<br />
-    + 10-订单申请全额退款-仅订单状态&mdash;由车车坐席发起的全额退款<br />
-        * 根据checheOrderNo获取主订单，子订单信息<br />
-        * 更新主订单状态(退款中-7)<br />
-        * 跟新子订单状态(?-不动的话，应该是已支付的状态)<br />
-        * 更新途虎业务系统订单状态(车险退款中-4)<br />
-    + 9-订单退款成功-仅订单状态-----这是全额 还是部分退款？<br />
-        * 根据checheOrderNo获取主订单信息<br />
-        * 更新主订单状态(已退款-8)<br />
-        * 子订单也有部分退款的的状态，？？？？？？？？？？？？？<br />
-        * 更新途虎业务系统订单状态(车险已退款-5)<br />
-    + 201-订单少补状态&mdash;完整订单报文----<br />
-        * 根据checheOrderNo获取主订单，子订单(列表)信息<br />
-        * 解析车车订单信息，拿到支付数组，找到是待支付p2,s2的订单<br />
-        * 检查所有子订单信息<br />
-        * 新建子订单，类型(少补单-),状态(待支付-1)-金额，id。<br />
-        * 更新主订单状态(补缴中-6)-根据子订单，重新计算金额<br />
-        * 更新途虎业务系统&mdash;待解决<br />
-    + 202-订单部分退款状态&mdash;完整订单报文<br />
-        * 根据checheOrderNo获取主订单，子订单(列表)信息<br />
-        * 解析车车订单信息，拿到支付数组，找到是p3的支付记录<br />
-        * 新建子订单，类型(多退单)，状态(退款中-1)，-金额，id<br />
-        * 更新主订单状态(部分退款-9)，根据子订单，重新计算金额<br />
-        * 更新途虎业务系统----待解决<br />
-1.应付金额totalPremium（商业险 交强险 加车船税 保费）和  实付金额 在计算折扣价格接口之后的paidAmount，同gift一同给出</p>
-<p>2.报价返回信息中的  &ldquo;totalPremium&rdquo;: 6560.97,&rdquo;premium&rdquo;: &ldquo;6560.97&rdquo;,  两个字段含义<br />
-3.金额精确度问题，报价单中 精确度是小数点后两位，订单中金额是一位<br />
-4.</p>
-<p>5.车辆信息.engineNo 和 vinNo 带*<br />
-6.<br />
-            applicantName，   我们用的车主信息，车车用的被投保人姓名</p>
-<p>7，交强险 compulsory    我们用的报价单是总和，  车车订单中用的是<br />
-            autoTax<br />
-            base            商业险<br />
-8.关于 投保人和被投保人，<br />
-车车是将 被投保人与投保人的信息保持一致，根据我们下单接口传的被投保人的信息</p>
-<h2 id="checheservice"><a name="user-content-checheservice" href="#checheservice" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>ChecheService</h2>
-<h2 id="postman"><a name="user-content-postman" href="#postman" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>PostMan 对接接口</h2>
-<h2 id="sublime-text"><a name="user-content-sublime-text" href="#sublime-text" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>sublime text</h2>
-<pre><code>1.使用Sublime Text作为Markdown编辑器http://www.cnblogs.com/IPrograming/p/Sublime-markdown-editor.html
-    1. 安装Markdown Editing和Markdown Preview 插件
-    2. 使用 Markdown Preview 生成 HTML C+S+p
-2.BracketHighlighter 高亮显示匹配的括号、引号和标签 
-2. 快捷键
-</code></pre>
-<ul>
-<li>Ctrl+Shift+M：选中当前括号内容，重复可选着括号本身</li>
-<li>Ctrl+M：跳转到对应括号</li>
-<li>Ctrl+D：选择单词，重复可增加选择下一个相同的单词</li>
-<li>Ctrl+L：选择行，重复可依次增加选择下一行</li>
-<li>Ctrl+X：删除当前行</li>
-<li>Ctrl+R：前往 method</li>
-<li>Ctrl+G：跳转到第几行</li>
-<li>Ctrl+ Enter：在当前行后插入新行</li>
-<li>Ctrl+Shift+Enter：在当前行前插入新行</li>
-<li></li>
-<li>Shift+右键拖动：光标多不，用来更改或插入列内容</li>
-<li>Ctrl+依次左键点击或选取，可需要编辑的多个位置</li>
-<li></li>
-<li>Ctrl+/：注释当前行</li>
-<li>Ctrl+Shift+/：当前位置插入注释</li>
-<li>
-<p>Ctrl+Alt+/：块注释，并Focus到首行，写注释说明用的</p>
-</li>
-<li>
-<p>Alt+Shift+数字：分屏显示</p>
-</li>
-<li>Alt+F3：选择所有相同的词</li>
-<li>Ctrl+Shift+T可以打开之前关闭的tab页，这点同chrome是一样的</li>
-<li>Ctrl+Shift+[ 折叠代码</li>
-<li>Ctrl+Shift+] 展开代码</li>
-</ul>
-<h2 id="powershell"><a name="user-content-powershell" href="#powershell" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>PowerShell</h2>
-<pre><code>1. How to create permanent PowerShell Aliases(http://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
-    cd C:\Windows\System32\WindowsPowerShell\v1.0
-    touch profile.ps1
-
-    Add 
-    function Do-ActualThing {
-         # do actual thing
+<li>通过泛型和JSON.parseObject()，解决从JSON大量字段转为POJO的过程，详见ZhongAnApiServiceImpl.getResponseEntity();<br />
+    <pre><code class="java">    public static &lt;T&gt; T getResponseEntity(CommonResponse response, Class&lt;T&gt; clazz){
+    //TODO 对错误异常的判断
+    if(StringUtil.isNotBlank(response.getErrorCode())){
+        return null;
     }
-    Set-Alias MyAlias Do-ActualThing
+    return getResponseEntity(JSON.parseObject(response.getBizContent()).getJSONObject(&quot;responseResult&quot;),clazz);
+}
 
-   Powershell中禁止执行脚本解决办法http://www.it610.com/article/2830044.htm 
-   `PS C:\Windows\system32&gt; set-ExecutionPolicy RemoteSigned`
-</code></pre>
-<h2 id="bitvise-ssh"><a name="user-content-bitvise-ssh" href="#bitvise-ssh" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bitvise SSH</h2>
-<h2 id="kibana"><a name="user-content-kibana" href="#kibana" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>KIBANA</h2>
-<h2 id="shimoio"><a name="user-content-shimoio" href="#shimoio" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>shimo.io</h2>
-<h2 id="postman_1"><a name="user-content-postman_1" href="#postman_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>postMan</h2>
-<h4 id="readstream"><a name="user-content-readstream" href="#readstream" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>read.stream</h4>
-<h4 id="jpa-test"><a name="user-content-jpa-test" href="#jpa-test" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JPA Test</h4>
-<h2 id="retrofit"><a name="user-content-retrofit" href="#retrofit" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Retrofit</h2>
-<h3 id="1exception-javanetsockettimeoutexception-timeout"><a name="user-content-1exception-javanetsockettimeoutexception-timeout" href="#1exception-javanetsockettimeoutexception-timeout" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1.Exception: java.net.SocketTimeoutException: timeout</h3>
-<p>解决 <a href="http://stackoverflow.com/questions/29380844/how-to-set-timeout-in-retrofit-library">How to set timeout in Retrofit library?</a></p>
-<h3 id="2iovertxcorejsondecodeexception-failed-to-decodeunexpected-character-i-code-105-was-expecting-double-quote-to-start-field-name"><a name="user-content-2iovertxcorejsondecodeexception-failed-to-decodeunexpected-character-i-code-105-was-expecting-double-quote-to-start-field-name" href="#2iovertxcorejsondecodeexception-failed-to-decodeunexpected-character-i-code-105-was-expecting-double-quote-to-start-field-name" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2.io.vertx.core.json.DecodeException: Failed to decode:Unexpected character (&lsquo;i&rsquo; (code 105)): was expecting double-quote to start field name</h3>
-<p>ChecheResParser.getData() 返回的String不符合json格式，所以无法解析成json</p>
-<h3 id="3error-1366-hy000-incorrect-string-valuexd5xd4-for-column-name-at-row-1"><a name="user-content-3error-1366-hy000-incorrect-string-valuexd5xd4-for-column-name-at-row-1" href="#3error-1366-hy000-incorrect-string-valuexd5xd4-for-column-name-at-row-1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>3.(ERROR 1366 (HY000): Incorrect string value:&rsquo;\xD5\xD4&rsquo; for column &lsquo;name&rsquo; at row 1)</h3>
-<p><a href="http://blog.csdn.net/webnoties/article/details/17219167">http://blog.csdn.net/webnoties/article/details/17219167</a><br />
-mySQl workBench<br />
-<a href="http://www.2cto.com/database/201302/189920.html">MySql:charset和collation的设置</a></p>
-<h3 id="4javalangunsupportedoperationexception-not-implemented"><a name="user-content-4javalangunsupportedoperationexception-not-implemented" href="#4javalangunsupportedoperationexception-not-implemented" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>4.java.lang.UnsupportedOperationException: Not implemented</h3>
-<p>vertx 自己api中写着 batch的用法，但是源码中AsyncSQLConnectionImpl.java 根本没实现。<br />
-<a href="http://vertx.io/docs/vertx-sql-common/java/#_batch_operations">Batch operations</a><br />
-目前还不支持mysql的jdbc，要等netty更新到4.1</p>
-<h3 id="5javautildate-javasqldate"><a name="user-content-5javautildate-javasqldate" href="#5javautildate-javasqldate" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>5.java.util.date 与 java.sql.date 的区别</h3>
-<p><a href="http://blog.csdn.net/a597926661/article/details/7720803">java.util.date 与 java.sql.date 的区别</a><br />
-Java.sql.Date,java.sql.Time和java.sql.Timestamp三个都是java.util.Date的子类（包装类）。<br />
-<a href="http://blog.csdn.net/yangkai_hudong/article/details/18705713">java向MySQL插入当前时间的四种方式和java时间日期格式化的几种方法(案例说明)</a></p>
-<h3 id="6"><a name="user-content-6" href="#6" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>6.</h3>
-<p><a href="http://blog.didispace.com/springbootexception/">Spring Boot中Web应用的统一异常处理</a></p>
-<h3 id="api"><a name="user-content-api" href="#api" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>api外网映射</h3>
-<p><a href="https://ngrok.cc/">https://ngrok.cc/</a><br />
-注册账号-开通隧道-获得隧道id</p>
-<h4 id="windows"><a name="user-content-windows" href="#windows" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Windows</h4>
-<p>-下载客户端并启动(Sunny-Ngrok启动工具.bat)-输入隧道id-ed89fd7352dba013<br />
-<a href="http://car_boot.ngrok.cc">http://car_boot.ngrok.cc</a><br />
- PS：免费服务器 不稳定</p>
-<h4 id="linux"><a name="user-content-linux" href="#linux" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Linux</h4>
-<p>下载zip&mdash;&gt;sunny&mdash;&gt;启动 ./sunny clientid {隧道id} &amp;</p>
-<p>后台运行&mdash;Screen<br />
-<a href="http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html">linux screen 命令详解</a></p>
-<blockquote>
-<p>screen -S ngrok ./sunny clientid {隧道id}<br />
-Ctrl+a w #查看当前窗口<br />
-Ctrl+a d #断开当前窗口<br />
-screen -ls #窗口列表<br />
-screen -r {窗口id} #重连窗口<br />
-Ctrl+a k #关闭当前窗口</p>
-</blockquote>
-<p><a href="http://hetaoo.iteye.com/blog/2299123">ssh隧道代理</a></p>
-<h3 id="cheche-sdk"><a name="user-content-cheche-sdk" href="#cheche-sdk" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>cheche SDK</h3>
-<h4 id="jar"><a name="user-content-jar" href="#jar" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JAR包</h4>
-<h5 id="gradle"><a name="user-content-gradle" href="#gradle" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>gradle 编译</h5>
-<pre><code>gradlew.bat
-https://gradle.org/install
-</code></pre>
-<h4 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>签名 延签</h4>
-<p>HMAC-SHA</p>
-<h3 id="oauth"><a name="user-content-oauth" href="#oauth" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>OAuth</h3>
-<h4 id="spring-boot-csrf"><a name="user-content-spring-boot-csrf" href="#spring-boot-csrf" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Spring Boot CSRF</h4>
-<p><a href="https://zh.wikipedia.org/wiki/%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0">跨站请求伪造</a><br />
-<a href="https://github.com/spring-projects/spring-boot/issues/179">Can i disable CSRF check for some controllers? #179<br />
-</a><br />
-<a href="http://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html?login=1">浅谈CSRF攻击方式</a></p>
-<h4 id="spring-boot-call-webservice"><a name="user-content-spring-boot-call-webservice" href="#spring-boot-call-webservice" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Spring Boot Call WebService</h4>
-<p><a href="https://spring.io/guides/gs/consuming-web-service/">Consuming a SOAP web service</a><br />
-<a href="https://www.dexcoder.com/selfly/article/4595;jsessionid=A808CCFC5E02FF76BA7411619A6B85E1">Spring Boot整合spring-ws调用web service服务</a></p>
-<p><a href="http://blog.csdn.net/hj7jay/article/details/51130386"> Spring boot 整合CXF开发web service</a></p>
-<p><a href="https://hizzgdev.github.io/2014/07/11/refactoring-two-ways-to-call-a-webservice.html">两种WebService的调用方式</a></p>
-<h3 id="fiddler"><a name="user-content-fiddler" href="#fiddler" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>fiddler</h3></article></body></html>
+public static &lt;T&gt; T getResponseEntity(JSONObject json, Class&lt;T&gt; clazz) {
+
+    return JSONObject.parseObject(json.toString(),clazz);
+}
+</code></pre></li>
+<li>完成对众安API接口(除收银台外)的测试，发现存在大量公共逻辑，对其进行抽象到<code>callApiService(ZhongAnServiceEnum service, ZhongAnBaseRequest serviceRequest, Class&lt;T&gt; serviceResponse)</code>中<br />
+    <pre><code class="java">private &lt;T&gt; T callApiService(ZhongAnServiceEnum service, ZhongAnBaseRequest serviceRequest, Class&lt;T&gt; serviceResponse) throws ZhongAnOpenException {
+
+    CommonRequest request = new CommonRequest(service.serviceUrl);
+    //业务参数
+    JSONObject param = new JSONObject();
+    param.put(&quot;requestParam&quot;, JSON.toJSONString(serviceRequest));
+    request.setParams(param);
+    //调用
+    logger.info(&quot;开始调用众安API-{},request={}&quot;,service.serviceShowName,serviceRequest);
+    CommonResponse response = (CommonResponse) getZhongAnApiClient().call(request);
+    logger.info(&quot;结束调用众安API-{},response={}&quot;,service.serviceShowName,response);
+    return getResponseEntity(response,serviceResponse);
+}
+</code></pre></li>
+</ol>
+<h3 id="_2"><a name="user-content-_2" href="#_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>车险项目重构</h3>
+<ol>
+<li>分析重构车险(car_boot)接口：<br />
+ - 保存车主信息<br />
+ - 获取车辆信息<br />
+ - 查询车型<br />
+ - 保存车辆信息<br />
+ - 下单<br />
+ - 同步</li>
+</ol>
+<h3 id="todo"><a name="user-content-todo" href="#todo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>下周工作TODO</h3>
+<ol>
+<li>进一步分析重构车险(car_boot)接口，周二前初步完成每个接口的重构方案，并与团队其他成员进行沟通</li>
+<li>开始具体实施重构</li>
+</ol></article></body></html>
