@@ -99,6 +99,10 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [安全：公钥，私钥 以及部署 HTTPS](https://github.com/pzxwhc/MineKnowContainer/issues/66)
 
 ## 框架技术
+#### Web
+- [Web：初步理解 Tomcat](https://github.com/pzxwhc/MineKnowContainer/issues/55)
+- [Web：Servlet 体系结构与 ServletContext，ServletConfig](https://github.com/pzxwhc/MineKnowContainer/issues/32)
+
 #### Spring 与 SpringMVC
 - [Spring：AOP（JDK动态代理与CGLIB代理）](https://github.com/pzxwhc/MineKnowContainer/issues/28)
 - [Spring：DI原理（包括如何创建实体和具体注入）](https://github.com/pzxwhc/MineKnowContainer/issues/30)
@@ -151,9 +155,6 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [OAuth2：使用Spring-OAuth，基于Spring-Security，SpringBoot，支持 Mysql 数据库](https://github.com/pzxwhc/MineKnowContainer/issues/59)
 - [OAuth2：忽略 state 参数引发的 csrf 漏洞](https://github.com/pzxwhc/MineKnowContainer/issues/68)
 
-#### Web
-- [Web：初步理解 Tomcat](https://github.com/pzxwhc/MineKnowContainer/issues/55)
-- [Web：Servlet 体系结构与 ServletContext，ServletConfig](https://github.com/pzxwhc/MineKnowContainer/issues/32)
 
 ## 杂谈
 - [杂谈：NodeJs 和 Servlet 的对比](https://github.com/pzxwhc/MineKnowContainer/issues/57)
