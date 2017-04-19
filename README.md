@@ -172,7 +172,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
  - [聚类 多视角: CoFKM,Co-EM,WCo-MEC,WCo-PCM]()
 ### 推荐算法
  - [推荐算法： 基于内容的推荐算法]()
- - [推荐算法： 协同过滤推荐算法]()
+ - [推荐算法： 协同过滤推荐算法](https://github.com/wangzhenhui1991/Notes/issues/20)
  - [推荐算法： 基于知识的推荐算法]()
 # 分布式
 ## Hadoop
