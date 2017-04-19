@@ -5,10 +5,6 @@
 
 Ps：技术探讨欢迎提 issue 或者 email。
 
-# Notes
-## 周报系列
-[tuhu周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
-
 ## Java
 
 #### Java JVM
@@ -217,4 +213,8 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ### Express
 ## Jquery
 ## AngularJs
+
+# Notes
+## 周报系列
+[tuhu周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
 
