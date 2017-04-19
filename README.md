@@ -64,7 +64,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 #### Java IO
 - [Java IO：操作系统的IO处理过程以及5种网络IO模型](https://github.com/pzxwhc/MineKnowContainer/issues/22)
-- [Java IO：常见Java IO流介绍（ByteArrayInputStream，ObjectInputStream，BufferedInputStream）](https://github.com/pzxwhc/MineKnowContainer/issues/23)
+- [Java IO：常见Java IO流介绍(ByteArrayInputStream，ObjectInputStream，BufferedInputStream)](https://github.com/pzxwhc/MineKnowContainer/issues/23)
 
 #### Java 其他
 - [Java 其他：异常体系结构与 try-catch-finally](https://github.com/pzxwhc/MineKnowContainer/issues/56)
@@ -78,14 +78,6 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [设计模式 -- 装饰器模式（为对象动态的添加功能）](https://github.com/pzxwhc/MineKnowContainer/issues/3)
 - [设计模式 -- 单例模式（饿汉，懒汉模式与多线程下的使用）](https://github.com/pzxwhc/MineKnowContainer/issues/74)
 - [设计模式 -- spring aop 的代理模式(Proxy 以及 CGLib)](https://github.com/pzxwhc/MineKnowContainer/issues/85)
-
-## 排序算法
-- [插入排序算法：直接插入排序-希尔排序](https://github.com/wangzhenhui1991/Notes/issues/14)
-- [交换排序算法：冒泡排序-快速排序](https://github.com/wangzhenhui1991/Notes/issues/15)
-- [选择排序算法：简单选择排序-堆排序](https://github.com/wangzhenhui1991/Notes/issues/16)
-- [排序算法：归并排序](https://github.com/wangzhenhui1991/Notes/issues/17)
-
-
 
 ## Mysql
 - [Mysql：行级锁](https://github.com/pzxwhc/MineKnowContainer/issues/71)
@@ -116,13 +108,13 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [Spring Security：相关类以及 Authentication 认证流程（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/58)
 - [Spring Security：结合 Spring-OAuth，支持 Mysql 数据库（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/59)
 #### Spring Boot
-
+- [Spring Boot : UnitTest]()
 ##### ORM持久层框架
 - [ORM MyBatis:MyBatis 的初步认识以及基本使用](https://github.com/wangzhenhui1991/Notes/issues/18)
 - [ORM MyBatis:MyBatis 的映射](https://github.com/wangzhenhui1991/Notes/issues/19)
 - [ORM MyBatis:MyBatis 的动态映射](https://github.com/wangzhenhui1991/Notes/issues/20)
-- [ORM Hibernate]()
-- [ORM SpringJPA]()
+- [x] [ORM Hibernate]()
+- [√] [ORM SpringJPA]()
 #### Vert.X
 
 #### Quartz
@@ -165,27 +157,28 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 
 ## 算法
-[编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July/tree/master/ebook/zh)
+- [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July/tree/master/ebook/zh)
 ### 排序
-### 遍历
+- [插入排序算法：直接插入排序-希尔排序](https://github.com/wangzhenhui1991/Notes/issues/14)
+- [交换排序算法：冒泡排序-快速排序](https://github.com/wangzhenhui1991/Notes/issues/15)
+- [选择排序算法：简单选择排序-堆排序](https://github.com/wangzhenhui1991/Notes/issues/16)
+- [排序算法：归并排序](https://github.com/wangzhenhui1991/Notes/issues/17)
+### 搜索
 ### 树
 - [红黑树](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)
 
 ## 机器学习
-
-## 聚类
-### FCM-模糊聚类
-### PCM-可能性聚类
-### EM-模型聚类
-### MEC-极大熵聚类
-## 多视角聚类
-### CoFKM
-### Co-EM
-### Co-MEC
-### WCo-PCM
-## 推荐算法
-
-# 大数据
+### 聚类
+ - [聚类 HCM：Hard C-Meanings Clustering]()
+ - [聚类 FCM: Fuccy C-Meanings Clustering]()
+ - [聚类 PCM：Possibility C-Meanings Clustering]()
+ - [聚类 MEC：Max Entropy Clustering]()
+ - [聚类 多视角: CoFKM,Co-EM,WCo-MEC,WCo-PCM]()
+### 推荐算法
+ - [推荐算法： 基于内容的推荐算法]()
+ - [推荐算法： 协同过滤推荐算法]()
+ - [推荐算法： 基于知识的推荐算法]()
+# 分布式
 ## Hadoop
  - [Hadoop: Hadoop-生态圈]()
  - [Hadoop: MapReduce-编程模型]()
@@ -204,7 +197,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ## Xshell
 ## Fiddler
 ## Break the GreatFireWall
-## 
+## PostMan
 
 # Http
 
