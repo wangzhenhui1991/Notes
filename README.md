@@ -105,12 +105,12 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [Spring Security：结合 Spring-OAuth，支持 Mysql 数据库（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/59)
 #### Spring Boot
 - [Spring Boot : UnitTest]()
-##### ORM持久层框架
+#### ORM持久层框架
 - [ORM MyBatis:MyBatis 的初步认识以及基本使用](https://github.com/wangzhenhui1991/Notes/issues/18)
 - [ORM MyBatis:MyBatis 的映射](https://github.com/wangzhenhui1991/Notes/issues/19)
 - [ORM MyBatis:MyBatis 的动态映射](https://github.com/wangzhenhui1991/Notes/issues/20)
-- [x] [ORM Hibernate]()
-- [√] [ORM SpringJPA]()
+- [ORM Hibernate]()
+- [ORM SpringJPA]()
 #### Vert.X
 
 #### Quartz
@@ -136,6 +136,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 #### Docker
 - [Docker：4种网络模式以及bridge模式下容器的通信](https://github.com/pzxwhc/MineKnowContainer/issues/52)
+- [Docker: 常用命令以及使用技巧]
 
 #### OAuth
 - [OAuth2：四种基本授权模式](https://github.com/pzxwhc/MineKnowContainer/issues/41)
@@ -186,27 +187,25 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ## Spark
  - [Spark: spark原理及实现]()
 
-# 常用工具
-## Intellij
-## Sublime
-## Lisatry
-## Xshell
-## Fiddler
-## Break the GreatFireWall
-## PostMan
+## 常用工具
+ - [IDE: Intellij]()
+ - [IDE: Sublime]()
+ - [Windows 常用工具: Listary]()
+ - [Windows 工具: XShell]()
+ - [Windows 网络抓包工具: Fiddler]()
+ - [Web工具： PostMan]()
+ - [Web工具: Ngrock]()
+ - [Windows Console工具: ConEmu]()
+ - [Windows SSH工具: Cygwin64 Terminal]
+## Http
+- [Http相关知识]()
+- [RESTFUL HTTP: SwaggerAPI语法]()
+- []
 
-# Http
-
-# 数据库
-## MySql
-## Redis
-## MongoDB
-## HBase
-# Linux 
-## Linux
-
-# Docker
-## Docker常用命令
+## 数据库
+ - [数据库:SQL常用语法]
+ - [数据库:NoSQL 对比使用](http://www.cnblogs.com/vajoy/p/5471308.html)
+## Linux 
 
 # JavaScript
 ## Node
