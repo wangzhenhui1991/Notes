@@ -9,7 +9,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 #### Java JVM
 
-垃圾算法和垃圾收集器相关
+**垃圾算法和垃圾收集器相关**
 
 - [Java JVM：总结](https://github.com/pzxwhc/MineKnowContainer/issues/63)
 - [Java JVM：垃圾回收（GC 在什么时候，对什么东西，做了什么事情）](https://github.com/wangzhenhui1991/Notes/issues/10)
@@ -20,7 +20,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [Java JVM：CMS 垃圾收集器 - 工作原理，浮动垃圾，三色标记法等](https://github.com/pzxwhc/MineKnowContainer/issues/89)
 - [Java JVM：G1 垃圾收集器概述](https://github.com/pzxwhc/MineKnowContainer/issues/90)
 
-内存相关
+**内存相关**
 
 - [Java JVM：内存结构](https://github.com/pzxwhc/MineKnowContainer/issues/24)
 - [Java JVM：Java 对象具体是如何创建的](https://github.com/wangzhenhui1991/Notes/issues/9)
@@ -64,6 +64,9 @@ Ps：技术探讨欢迎提 issue 或者 email。
 
 #### Java 其他
 - [Java 其他：异常体系结构与 try-catch-finally](https://github.com/pzxwhc/MineKnowContainer/issues/56)
+- [Java 基础：正则匹配]
+- [Java 基础：sql.Date与util.Date]
+- [Java 基础：String,StringUtils]
 
 ## 设计模式
 
@@ -112,7 +115,8 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [ORM Hibernate]()
 - [ORM SpringJPA]()
 #### Vert.X
-
+#### dubbox 与 dubbo
+- [dubbox:]
 #### Quartz
 - [Quartz：Spring + Quartz 支持多机任务调度（实现和原理流程）](https://github.com/pzxwhc/MineKnowContainer/issues/37)
 - [Quartz：使用行级锁实现集群](https://github.com/pzxwhc/MineKnowContainer/issues/69)
@@ -193,6 +197,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
  - [Windows 常用工具: Listary]()
  - [Windows 工具: XShell]()
  - [Windows 网络抓包工具: Fiddler]()
+ - [Node AnyProxy]()
  - [Web工具： PostMan]()
  - [Web工具: Ngrock]()
  - [Windows Console工具: ConEmu]()
@@ -217,3 +222,6 @@ Ps：技术探讨欢迎提 issue 或者 email。
 ## 周报系列
 [tuhu周报:1.9-1.13](https://github.com/wangzhenhui1991/Notes/issues/1)
 
+# Boooooooooooooooooook
+
+- [领域驱动设计]
