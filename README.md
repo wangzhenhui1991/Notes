@@ -225,3 +225,8 @@ Ps：技术探讨欢迎提 issue 或者 email。
 # Boooooooooooooooooook
 
 - [领域驱动设计]
+## 吴军
+- [浪潮之巅]
+- [数学之美]
+#--
+- [硅谷之光]
