@@ -128,7 +128,7 @@ Ps：技术探讨欢迎提 issue 或者 email。
 - [ORM MyBatis:MyBatis 的映射](https://github.com/wangzhenhui1991/Notes/issues/19)
 - [ORM MyBatis:MyBatis 的动态映射](https://github.com/wangzhenhui1991/Notes/issues/20)
 - [ORM Hibernate]()
-- [ORM SpringJPA]()
+- [ORM SpringJPA](https://github.com/wangzhenhui1991/Notes/issues/23)
 #### Vert.X
 #### dubbox 与 dubbo
 - [dubbox:]
