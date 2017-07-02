@@ -3,7 +3,7 @@
 
 后续个人的一些技术总结文章会写在自己的个人博客上：欢迎关注：[http://wangzhenhui.com](http://wangzhenhui.com/)
 
-Ps：技术探讨欢迎提 issue 或者 email。
+Ps：技术探讨欢迎提 issue 或者 [email](wangzhenhui1991@163.com)。
 
 ## Java
 
