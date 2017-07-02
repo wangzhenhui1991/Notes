@@ -93,14 +93,16 @@ Ps：技术探讨欢迎提 issue 或者 [email](wangzhenhui1991@163.com)。
 #### Servlet与 Servlet容器
 - [Web：初步理解 Tomcat](https://github.com/pzxwhc/MineKnowContainer/issues/55)
 - [Web：Servlet 体系结构与 ServletContext，ServletConfig](https://github.com/pzxwhc/MineKnowContainer/issues/32)
-- [SpringMVC：FrameworkServlet（主要用于初始化WebApplicationContext）](https://github.com/pzxwhc/MineKnowContainer/issues/34)
-- [SpringMVC：DispatcherServlet（流程）](https://github.com/pzxwhc/MineKnowContainer/issues/35)
-- [SpringMVC：前后端传值（包括@PathVarible，@PathParam等）](https://github.com/pzxwhc/MineKnowContainer/issues/36)
+
 #### Spring 与 SpringMVC
 - [Spring：AOP（JDK动态代理与CGLIB代理）](https://github.com/pzxwhc/MineKnowContainer/issues/28)
 - [Spring：DI原理（包括如何创建实体和具体注入）](https://github.com/pzxwhc/MineKnowContainer/issues/30)
 - [Spring：异常统一处理的三种方式与Rest接口异常的处理](https://github.com/pzxwhc/MineKnowContainer/issues/29)
 - [Spring：事务的传播属性，隔离级别以及脏读，幻读，不可重复读概念](https://github.com/pzxwhc/MineKnowContainer/issues/31)
+
+- [SpringMVC：FrameworkServlet（主要用于初始化WebApplicationContext）](https://github.com/pzxwhc/MineKnowContainer/issues/34)
+- [SpringMVC：DispatcherServlet（流程）](https://github.com/pzxwhc/MineKnowContainer/issues/35)
+- [SpringMVC：前后端传值（包括@PathVarible，@PathParam等）](https://github.com/pzxwhc/MineKnowContainer/issues/36)
 
 
 #### Spring Security
