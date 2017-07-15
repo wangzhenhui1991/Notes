@@ -69,14 +69,18 @@ Ps：技术探讨欢迎提 issue 或者 [email](wangzhenhui1991@163.com)。
 - [Java 基础：String,StringUtils]
 
 ## 设计模式
+- [看懂UML-类图和时序图](https://github.com/me115/design_patterns/blob/master/read_uml.rst)
+- [设计模式 -- 创建型模型 - 单例模式（饿汉，懒汉模式与多线程下的使用）](https://github.com/pzxwhc/MineKnowContainer/issues/74)
+- [设计模式 -- 创建型模型 - Builder模式（多个构造器参数时可显著改善可读性）](https://github.com/pzxwhc/MineKnowContainer/issues/2)
+- [设计模式 -- 创建型模型 - 工厂模式（简单工厂模式，工厂方法模式，抽象工厂模式）](https://github.com/pzxwhc/MineKnowContainer/issues/73)
 
-- [设计模式 -- 关于策略模式和自己使用的一些思考（2017.1.17更新）](https://github.com/pzxwhc/MineKnowContainer/issues/4)
-- [设计模式 -- 观察者模式（有利于代码解耦）](https://github.com/pzxwhc/MineKnowContainer/issues/5)
-- [设计模式 -- Builder模式（多个构造器参数时可显著改善可读性）](https://github.com/pzxwhc/MineKnowContainer/issues/2)
-- [设计模式 -- 工厂模式（简单工厂模式，工厂方法模式，抽象工厂模式）](https://github.com/pzxwhc/MineKnowContainer/issues/73)
-- [设计模式 -- 装饰器模式（为对象动态的添加功能）](https://github.com/pzxwhc/MineKnowContainer/issues/3)
-- [设计模式 -- 单例模式（饿汉，懒汉模式与多线程下的使用）](https://github.com/pzxwhc/MineKnowContainer/issues/74)
-- [设计模式 -- spring aop 的代理模式(Proxy 以及 CGLib)](https://github.com/pzxwhc/MineKnowContainer/issues/85)
+- [设计模式 -- 结构型模型 - 装饰器模式（为对象动态的添加功能）](https://github.com/pzxwhc/MineKnowContainer/issues/3)
+- [设计模式 -- 结构型模型 - spring aop 的代理模式(Proxy 以及 CGLib)](https://github.com/pzxwhc/MineKnowContainer/issues/85)
+
+- [设计模式 -- 行为型模型 - 关于策略模式和自己使用的一些思考（2017.1.17更新）](https://github.com/pzxwhc/MineKnowContainer/issues/4)
+- [设计模式 -- 行为型模型 - 观察者模式（有利于代码解耦）](https://github.com/pzxwhc/MineKnowContainer/issues/5)
+
+
 
 ## Mysql
 - [Mysql：行级锁](https://github.com/pzxwhc/MineKnowContainer/issues/71)
