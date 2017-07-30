@@ -108,6 +108,7 @@ Ps：技术探讨欢迎提 issue 或者 [email](wangzhenhui1991@163.com)。
 - [SpringMVC：DispatcherServlet（流程）](https://github.com/pzxwhc/MineKnowContainer/issues/35)
 - [SpringMVC：前后端传值（包括@PathVarible，@PathParam等）](https://github.com/pzxwhc/MineKnowContainer/issues/36)
 
+- [Spring boot: 启动顺序](https://github.com/wangzhenhui1991/Notes/issues/41)
 
 #### Spring Security
 - [Spring Security：相关类以及 Authentication 认证流程（基于SpringBoot）](https://github.com/pzxwhc/MineKnowContainer/issues/58)
@@ -120,15 +121,18 @@ Ps：技术探讨欢迎提 issue 或者 [email](wangzhenhui1991@163.com)。
 - [Spring Boot : 数据访问(1):SQL数据库-jdbc,Jpa,MyBatis]
 - [Spring Boot : 数据访问(2):NoSql数据库-Redis]
 - [Spring Boot : 数据访问(3):事务管理]
+- [Spring Boot : @Transactional try catch问题](https://github.com/wangzhenhui1991/Notes/issues/28)
 - [Spring Boot : 数据访问(4):用Redis 和 ECache做缓存]
-- [Spring Boot : 日志管理:]
+- [Spring Boot : 日志管理](https://github.com/wangzhenhui1991/Notes/issues/39)
+- [Spring Boot ： ELK](https://github.com/wangzhenhui1991/Notes/issues/44)
 - [Spring Boot : 定时任务：@Schedule,Quartz]
 - [Spring Boot : 异步调用: @Async]
 - [Spring Boot : 事件驱动: EventBus Reactor](https://spring.io/guides/gs/messaging-reactor/)
 - [Spring Boot : 状态机: @StateMachine]
 - [Spring Boot : Spring Security]
 - [Spring Boot : 消息队列:Spring Boot On RabbitMQ]
-- [Spring Boot ]
+- [Spring Boot : Spring-starter](https://github.com/wangzhenhui1991/Notes/issues/26)
+
 #### ORM持久层框架
 - [ORM MyBatis:MyBatis 的初步认识以及基本使用](https://github.com/wangzhenhui1991/Notes/issues/18)
 - [ORM MyBatis:MyBatis 的映射](https://github.com/wangzhenhui1991/Notes/issues/19)
@@ -223,6 +227,7 @@ Ps：技术探讨欢迎提 issue 或者 [email](wangzhenhui1991@163.com)。
  - [Web工具: Ngrock]()
  - [Windows Console工具: ConEmu]()
  - [Windows SSH工具: Cygwin64 Terminal]
+ - [Restful接口测试:PostMan](https://github.com/wangzhenhui1991/Notes/issues/43)
 ## Http
 - [Http相关知识]()
 - [RESTFUL HTTP: SwaggerAPI语法]()
